@@ -1,0 +1,36 @@
+body{
+    background-image: url(img/ChatGPT\ Image\ 27\ de\ mai.\ de\ 2025\,\ 15_09_10.png);
+    background-repeat: no-repeat;
+    background-size: cover;      
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    transform: translate(-50%, -30%);
+    background-color: rgba(54, 90, 210, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+}
+fieldset{
+    border: 3px solid dodgerblue;
+}
+#legenda{
+    border: 1px solid dodgerblue;
+    padding: 2%;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+    color: white;
+}
+.inputbox{
+    position: relative;
+}
+.input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <title>color</title>
+</head>
+<body>    
+    <div class="box">
+        <form action="actions">
+            <fieldset>
+                <legend id="legenda"><b>COLORMAQ FEIRA DE SANTANA</b></legend>                
+                <div>
+                    <p>MANUTENÇÃO DE FROTA</p>
+                    <p>SOLICITAÇÃO DE SERVIÇO</p>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="name" id="input" class="name" required>
+                    <label for="Nome">Nome do motorista</label><br>  
+
+                    <input type="text" name="name" id="input" class="inputUser" required>
+                    <label for="nome">placa do veiculo</label> 
+                </div><br>                
+                <div>
+                    <form>
+                        <legend>TIPO DA OPERAÇÃO?</legend><br>
+                            <input type="radio" id="CHEGADA" name="OPERACAO" value="CHEGADA">
+                            <label for="CHEGADA">CHEGADA</label><br>
+
+                            <input type="radio" id="SAÍDA" name="OPERACAO" value="SAÍDA">
+                            <label for="SAÍDA">SAÍDA</label><br>
+
+                            <label for="data">DATA</label><br> 
+                            <input type="date" name="data" id="data">                                                                                  
+                    </form>
+                </div><br>
+                <form>
+                    <fieldset>
+                        <legend>MECÂNICA</legend>
+                        <input type="checkbox" id="SUSPENSÃO" name="frutas" value="SUSPENSÃO">
+                        <label for="SUSPENSÃO">SUSPENSÃO</label><br>
+
+                        <input type="checkbox" id="FREIOS" name="frutas" value="FREIOS">
+                        <label for="FREIOS">FREIOS</label><br>
+
+                        <input type="checkbox" id="VAZAMENTO DE AR" name="frutas" value="VAZAMENTO DE AR">
+                        <label for="VAZAMENTO DE AR">VAZAMENTO DE AR</label><br>
+                        
+                        <input type="checkbox" id="PERFEITAS CONDIÇÕES" name="frutas" value="PERFEITAS CONDIÇÕES">
+                        <label for="PERFEITAS CONDIÇÕES">PERFEITAS CONDIÇÕES</label><br>                                  
+                    </fieldset>
+                </form><br>
+                <form>
+                    <fieldset>
+                        <legend>ELETRICA</legend>
+                        <input type="checkbox" id="iluminação frontal" name="frutas" value="iluminação frontal">
+                        <label for="iluminação frontal">ILUMINAÇÃO FRONTAL</label><br>
+
+                        <input type="checkbox" id="iluminação traseira" name="frutas" value="iluminação traseira">
+                        <label for="iluminação traseira">ILUMINAÇÃO TRASEIRA</label><br>
+
+                        <input type="checkbox" id="iluminação lateral" name="frutas" value="iluminação lateral">
+                        <label for="iluminação lateral">ILUMINAÇÃO LATERAL</label><br>
+
+                        <input type="checkbox" id="alarme de ré" name="frutas" value="alarme de ré">
+                        <label for="alarme de ré">ALARME DE RÉ</label><br>
+
+                        <input type="checkbox" id="tomadas" name="frutas" value="tomadas">
+                        <label for="tomadas">TOMADAS</label><br>
+
+                        <input type="checkbox" id="PERFEITAS CONDIÇÕES" name="frutas" value="PERFEITAS CONDIÇÕES">
+                        <label for="PERFEITAS CONDIÇÕES">PERFEITAS CONDIÇÕES</label><br>  
+
+                    </fieldset>
+                </form><br> 
+                <form>
+                    <fieldset>
+                        <legend>BAÚ</legend>
+                        <input type="checkbox" id="PINO REI" name="BAÚ" value="PINO REI">
+                        <label for="PINO REI">PINO REI</label><br>
+
+                        <input type="checkbox" id="PÉ DE APOIO" name="frutas" value="PÉ DE APOIO">
+                        <label for="PÉ DE APOIO">PÉ DE APOIO</label><br>
+
+                        <input type="checkbox" id="FAIXAS REFLETIVAS" name="frutas" value="FAIXAS REFLETIVAS">
+                        <label for="FAIXAS REFLETIVAS">FAIXAS REFLETIVAS</label><br>
+
+                        <input type="checkbox" id="PROTETOR DE CICLISTA" name="BAÚ" value="PROTETOR DE CICLISTA">
+                        <label for="PROTETOR DE CICLISTA">PROTETOR DE CICLISTA</label><br>
+
+                        <input type="checkbox" id="FUNILARIA" name="frutas" value="FUNILARIA">
+                        <label for="FUNILARIA">FUNILARIA</label><br>
+
+                        <input type="checkbox" id="FECHADURAS" name="frutas" value="FECHADURAS">
+                        <label for="FECHADURAS">FECHADURAS</label><br>
+                    </fieldset>
+                </form><br>
+                <form>
+                    <fieldset>
+                        <legend>PNEU</legend>
+                        <input type="checkbox" id="LISOS " name="frutas" value="LISOS">
+                        <label for="LISOS">LISOS</label><br>                       
+                    </fieldset>
+                </form>                 
+            </fieldset>
+            <button type="button" onclick="sendwhatsapp" ();">enviar via whatsapp</button>
+        </form>        
+    </div>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>
